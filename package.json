@@ -1,0 +1,37 @@
+{
+    "name": "ssr-react",
+    "version": "1.0.0",
+    "description": "server with client side rendering using node and react.",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run transpile && npm run build && node  index.js ",
+        "build": "webpack --config webpack.config.js",
+        "transpile": "babel src -d lib"
+    },
+    "keywords":[
+        "react","node","client","server side","Hoc","styled components"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.10.4",
+        "babel-loader": "^7.1.2",
+        "babel-minify-webpack-plugin": "^0.3.1",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-react": "^6.11.1",
+        "json-loader": "^0.5.4",
+        "svg-inline-loader": "^0.8.0",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.2"
+    },
+    "dependencies": {
+        "express": "^4.14.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-inlinesvg": "^0.8.4",
+        "recompose": "^0.30.0",
+        "styled-components": "^2.2.4",
+        "svg-inline-react": "^3.1.0"
+    }
+}
