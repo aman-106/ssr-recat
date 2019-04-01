@@ -11,7 +11,7 @@
     "keywords":[
         "react","node","client","server side","Hoc","styled components"
     ],
-    "author": "",
+    "author": "amanrags@gmail.com",
     "license": "ISC",
     "devDependencies": {
         "babel-cli": "^6.26.0",
